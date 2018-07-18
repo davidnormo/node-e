@@ -27,7 +27,11 @@ Global vars
             string - stdin as a string
 
 Examples
-        echo Hello | node-eval '$in + " world!"'
+        node-eval 1+1 => 2
+            Evaluates javascript expressions and passes the result to stdout
+
+        echo Hello | node-eval '$in + " world!"' => "Hello world!"
+            Content from stdin is assigned to $in variable
 
         cat data.json | node-eval '$in.foo.bar'
             Parses stdin as JSON by default
