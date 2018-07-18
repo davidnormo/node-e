@@ -1,6 +1,6 @@
 {
   "name": "@davidnormo/node-e",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,6 +8,10 @@
   },
   "bin": {
     "node-e": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidnormo/node-e.git"
   },
   "keywords": [],
   "author": "",
