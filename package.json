@@ -11,5 +11,9 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "MIT",
+  "dependencies": {
+    "ansi-styles": "^3.2.1",
+    "minimist": "^1.2.0"
+  }
 }
