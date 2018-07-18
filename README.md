@@ -1,24 +1,24 @@
-# node-eval
+# node-e
 
 A cmd for quick node scripting.
 
 ## Install
 
 ```
-npm i -g node-eval
+npm i -g node-e
 ```
 
 ## Usage
 
 ```
 NAME
-        node-eval - Helper for quick CLI scripting using node
+        node-e - Helper for quick CLI scripting using node
 
 SYNOPSIS
-        node-eval <script>
+        node-e <script>
 
 DESCRIPTION
-        The purpose of node-eval is to help write quick CLI commands.
+        The purpose of node-e is to help write quick CLI commands.
         And tries to avoid some of the boilerplate code that somes
         with non-blocking IO node.
 
@@ -27,12 +27,12 @@ Global vars
             string - stdin as a string
 
 Examples
-        node-eval 1+1 => 2
+        node-e 1+1 => 2
             Evaluates javascript expressions and passes the result to stdout
 
-        echo Hello | node-eval '$in + " world!"' => "Hello world!"
+        echo Hello | node-e '$in + " world!"' => "Hello world!"
             Content from stdin is assigned to $in variable
 
-        cat data.json | node-eval '$in.foo.bar'
+        cat data.json | node-e '$in.foo.bar'
             Parses stdin as JSON by default
 ```
