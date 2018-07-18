@@ -2,7 +2,7 @@
 const argv = require('minimist')(process.argv.slice(2))
 const style = require('ansi-styles')
 
-if (argv.h || argv.help) {
+if (argv.h || argv.help || !argv._.length) {
 	process.stdout.write(
 `${style.bold.open}NAME${style.bold.close}
 	node-eval - Helper for quick CLI scripting using node
