@@ -5,7 +5,7 @@ A cmd for quick node scripting.
 ## Install
 
 ```
-npm i -g node-e
+npm i -g @davidnormo/node-e
 ```
 
 ## Usage
