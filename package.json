@@ -1,0 +1,15 @@
+{
+  "name": "node-eval",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "node-eval": "./index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
